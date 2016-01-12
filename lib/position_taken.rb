@@ -5,6 +5,6 @@ def position_taken?(board, position)
   elsif (board[position] == "X") || (board[position] == "O")
     return true
   else
-    puts "Please enter a proper position."
+    puts "Please enter a position between 1 and 9."
   end
 end
